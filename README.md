@@ -190,17 +190,6 @@ Classe principale: `EcoButton`
 - `displayBandwidthInfo()`: écrit l’état/poids dans `.bandwidth-info` si présent.
 - `webConsumption()`, `getNetworkMeasure()`, `getResourcesMeasure()`, `getNetworkAndDataMeasure()`: utilitaires de métriques basés sur l’API Performance.
 
-EndPoints/Interfaces externes:
-
-- N/A (bibliothèque front-end côté client, pas d’API serveur incluse).
-
-Documentation complète:
-
-- À venir (Swagger/Postman non pertinents pour un widget client). Une doc site (Docusaurus) est envisagée.
-
-Structures de données:
-
-- Options du constructeur (voir section Configuration). Stockage d’état via `sessionStorage`.
 
 ### 9. Tests & Qualité
 
@@ -232,42 +221,17 @@ Règles de style:
 - Nommage explicite, code lisible, fonctions courtes.
 - Pas d’inline comments superflus; privilégier des docstrings concises.
 
-### 11. Roadmap & TODO
-
-Fonctionnalités prévues:
-
-- Analytics intégrées (affichage des économies CO₂ et bande passante en temps réel).
-- Synchronisation multi-device et persistance cross-domain optionnelle.
-- Options avancées de transformation (vidéos, GIF, polices web → système).
-
-Versions futures:
-
-- Suivre les Issues et Projects GitHub pour le backlog et les milestones.
-
-Idées en réflexion:
-
-- Mode auto basé sur conditions réseau (Network Information API).
-- Intégrations CMS (WordPress, Drupal) sous forme de plugins.
-
 ### 12. Communauté & Support
 
-Où poser des questions:
-
-- Issues GitHub (bug reports, questions, RFC).
-
-Canaux officiels (à venir):
+Canaux officiels:
 
 - Site: `https://cyde.fr`
-- Discussions: GitHub Discussions / Slack / Discord (à définir)
-- Twitter/X et LinkedIn (à définir)
+- LinkedIn `https://fr.linkedin.com/company/cyde-sas`
 
 Mainteneurs:
 
-- Équipe Cyde — contact à venir.
+- Équipe Cyde — cyde.fr
 
-### 13. Licence
-
-Ce projet est distribué sous licence MIT. Voir le fichier `LICENSE` (à ajouter) pour plus de détails.
 
 ### 14. Références & Inspirations
 
